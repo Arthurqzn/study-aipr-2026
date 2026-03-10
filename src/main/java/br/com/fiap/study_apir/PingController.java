@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("raiz")
 
 public class PingController {
-     @GetMapping("ping")
+     @GetMapping ("ping")
     public String ping(){
-        return "pong";
+        return "pong lindo do qzntutu";
     }
    
     
